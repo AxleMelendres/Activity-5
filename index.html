@@ -1,0 +1,361 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <link href="index.css" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top">
+        <div class="container">
+            <a class="navbar-brand fw-bold" href="#home">Student Portfolio</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="#home">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#skills">Skills</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#projects">Projects</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#education">Education</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#achievements">Achievements</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Home Section -->
+    <section id="home" class="hero-section">
+        <div class="container">
+            <div class="row align-items-center min-vh-100">
+                <div class="col-lg-6">
+                    <h1 class="display-4 fw-bold mb-3">Axle D. Melendres</h1>
+                    <p class="lead text-muted mb-4">Aspiring IT Professional | Future Business Analyst | Backend Developer in Progress</p>
+                    <p class="mb-4">Passionate about designing efficient backend systems, analyzing business needs, and
+                         creating IT solutions that deliver real value to both users and organizations.</p>
+                    <a href="#contact" class="btn btn-primary btn-lg me-3">Get In Touch</a>
+                    <a href="#projects" class="btn btn-outline-primary btn-lg">View Projects</a>
+                </div>
+                <div class="col-lg-6 text-center">
+                    <div class="profile-image-container">
+                        <img src="./images/me.jpg" alt="Profile Photo" class="profile-image">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="section-padding">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 mx-auto text-center">
+                    <h2 class="section-title">ABOUT ME</h2>
+                    <p class="section-subtitle">Get to know me better</p>
+                </div>
+            </div>
+            <div class="row mt-5">
+                <div class="col-lg-6">
+                    <h4 class="mb-3">Background</h4>
+                    <p>I'm currently pursuing a Bachelor of Science in Information Technology with a major in Service Management at Batangas State University. My academic journey has equipped me with a solid foundation in IT principles and service-oriented solutions.</p>
+                    <p>In the future, I see myself working as a Business Analyst—helping companies understand their needs, improve their processes, and make smarter decisions using data. I want to serve as the link between people and technology, making sure solutions really solve problems and add value.</p>
+                </div>
+                <div class="col-lg-6">
+                    <h4 class="mb-3">Personal Interests</h4>
+                    <p>When I'm not coding or studying, you'll find me immersed in the world of anime. I'm a huge One Piece fan and love exploring different anime series. This passion for storytelling and character development actually influences my approach to user experience design.</p>
+                    <p>I believe that great technology should tell a story and create meaningful connections, just like the best anime series do.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="section-padding bg-light">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 mx-auto text-center">
+                    <h2 class="section-title">SKILLS</h2>
+                    <p class="section-subtitle">Technologies and competencies I work with</p>
+                </div>
+            </div>
+            <div class="row mt-5">
+                <div class="col-lg-6">
+                    <h4 class="mb-4">Technical Skills</h4>
+                    <div class="skill-item">
+                        <span class="skill-name">HTML/CSS</span>
+                        <div class="skill-bar">
+                            <div class="skill-progress" style="width: 65%"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <span class="skill-name">JavaScript</span>
+                        <div class="skill-bar">
+                            <div class="skill-progress" style="width: 10%"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <span class="skill-name">PHP</span>
+                        <div class="skill-bar">
+                            <div class="skill-progress" style="width: 80%"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <span class="skill-name">Bootstrap</span>
+                        <div class="skill-bar">
+                            <div class="skill-progress" style="width: 50%"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <span class="skill-name">MySQL</span>
+                        <div class="skill-bar">
+                            <div class="skill-progress" style="width: 65%"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <span class="skill-name">Cisco Networking</span>
+                        <div class="skill-bar">
+                            <div class="skill-progress" style="width: 70%"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <h4 class="mb-4">Soft Skills</h4>
+                    <div class="soft-skills">
+                        <span class="badge skill-badge">Problem-solving</span>
+                        <span class="badge skill-badge">Teamwork</span>
+                        <span class="badge skill-badge">Time Management</span>
+                        <span class="badge skill-badge">Adaptability</span>
+                        <span class="badge skill-badge">Communication</span>
+                        <span class="badge skill-badge">Critical Thinking</span>
+                        <span class="badge skill-badge">Leadership</span>
+                        <span class="badge skill-badge">Attention to Detail</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="section-padding">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 mx-auto text-center">
+                    <h2 class="section-title">PROJECTS</h2>
+                    <p class="section-subtitle">Some of my recent work</p>
+                </div>
+            </div>
+            <div class="row mt-5">
+                <div class="col-lg-6 mb-4">
+                    <div class="project-card">
+                        <div class="project-image">
+                            <img src="https://i.pinimg.com/1200x/32/8f/ad/328fad35a3a0e130d2e26f8c356f49f3.jpg" alt="E-ShopManage" class="img-fluid">
+                        </div>
+                        <div class="project-content">
+                            <h4>E-ShopManage</h4>
+                            <p>A comprehensive e-commerce management system designed to streamline online store operations, inventory management, and customer relations.</p>
+                            <div class="project-tech">
+                                <span class="tech-tag">PHP</span>
+                                <span class="tech-tag">MySQL</span>
+                                <span class="tech-tag">Bootstrap</span>
+                                <span class="tech-tag">JavaScript</span>
+                            </div>
+                            <p class="project-role"><strong>My Role:</strong> Full-stack development, database design, and user interface implementation.</p>
+                            <a href="https://github.com/Just-JKB/E-ShopManage-Comprehensive-Online-Retail-Application-Management-System" target="_blank" class="btn btn-sm btn-outline-primary mt-3">
+                        <i class="fab fa-github"></i> View on GitHub
+                        </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 mb-4">
+                    <div class="project-card">
+                        <div class="project-image">
+                            <img src="https://i.pinimg.com/736x/fb/62/4d/fb624dcaefc878f56fedd95efa0619df.jpg" alt="Local Market Products" class="img-fluid">
+                        </div>
+                        <div class="project-content">
+                            <h4>Local Market Products</h4>
+                            <p>A web platform showcasing local market products, connecting local vendors with customers and promoting community commerce.</p>
+                            <div class="project-tech">
+                                <span class="tech-tag">HTML/CSS</span>
+                                <span class="tech-tag">JavaScript</span>
+                                <span class="tech-tag">PHP</span>
+                                <span class="tech-tag">MySQL</span>
+                            </div>
+                            <p class="project-role"><strong>My Role:</strong> Backend Development — created the server-side logic in PHP, structured the database for product listings and reservations,
+                                 managed data flow between frontend and database, and ensured smooth performance for transactions.</p>
+                            <a href="https://github.com/AxleMelendres/LocalMarketProducts" target="_blank" class="btn btn-sm btn-outline-primary mt-3">
+                            <i class="fab fa-github"></i> View on GitHub
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Education Section -->
+    <section id="education" class="section-padding bg-light">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 mx-auto text-center">
+                    <h2 class="section-title">EDUCATION</h2>
+                    <p class="section-subtitle">My academic journey</p>
+                </div>
+            </div>
+            <div class="row mt-5">
+                <div class="col-lg-8 mx-auto">
+                    <div class="education-item">
+                        <div class="education-content">
+                            <h4>Bachelor of Science in Information Technology</h4>
+                            <h5 class="text-primary">Major in Service Management</h5>
+                            <p class="institution">Batangas State University</p>
+                            <p class="text-muted">Currently pursuing degree with focus on IT service management, systems analysis, and web development.</p>
+                        </div>
+                    </div>
+                    <div class="education-item">
+                        <div class="education-content">
+                            <h4>DATABIZ Seminar</h4>
+                            <p class="text-muted">Attended specialized training on data management and business intelligence applications.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Achievements Section -->
+    <section id="achievements" class="section-padding">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 mx-auto text-center">
+                    <h2 class="section-title">Achievements & Experiences</h2>
+                    <p class="section-subtitle">Highlights from my journey</p>
+                </div>
+            </div>
+            <div class="row mt-5">
+                <div class="col-lg-6">
+                    <div class="achievement-item">
+                        <div class="achievement-icon">
+                            <i class="fas fa-brain"></i>
+                        </div>
+                        <div class="achievement-content">
+                            <h5>AI Seminar with Bryl Lim - DATABIZ</h5>
+                            <p>Attended an insightful seminar on Artificial Intelligence applications and future trends in technology.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="achievement-item">
+                        <div class="achievement-icon">
+                            <i class="fas fa-chart-bar"></i>
+                        </div>
+                        <div class="achievement-content">
+                            <h5>Data Science Workshop with Jess Dela Cruz - DATABIZ</h5>
+                            <p>Participated in a comprehensive workshop covering data analysis techniques and visualization methods.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="section-padding bg-light">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 mx-auto text-center">
+                    <h2 class="section-title">Get In Touch</h2>
+                    <p class="section-subtitle">Let's connect and discuss opportunities</p>
+                </div>
+            </div>
+            <div class="row mt-5">
+                <div class="col-lg-8 mx-auto">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="contact-info">
+                                <div class="contact-item">
+                                    <i class="fas fa-envelope"></i>
+                                    <div>
+                                        <h5>Email</h5>
+                                        <p>axlemelendres57@gmail.com</p>
+                                    </div>
+                                </div>
+                                <div class="contact-item">
+                                    <i class="fab fa-linkedin"></i>
+                                    <div>
+                                        <h5>LinkedIn</h5>
+                                        <p><a href="https://www.linkedin.com/in/axle-melendres-63a22734a/" target="_blank">Connect with me professionally</a></p>
+                                    </div>
+                                 </div>
+                                <div class="contact-item">
+                                <i class="fab fa-github"></i>
+                                <div>
+                                    <h5>GitHub</h5>
+                                    <p><a href="https://github.com/AxleMelendres" target="_blank">Check out my code repositories</a></p>
+                                </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <form class="contact-form">
+                                <div class="mb-3">
+                                    <input type="text" class="form-control" placeholder="Your Name" required>
+                                </div>
+                                <div class="mb-3">
+                                    <input type="email" class="form-control" placeholder="Your Email" required>
+                                </div>
+                                <div class="mb-3">
+                                    <input type="text" class="form-control" placeholder="Subject" required>
+                                </div>
+                                <div class="mb-3">
+                                    <textarea class="form-control" rows="5" placeholder="Your Message" required></textarea>
+                                </div>
+                                <button type="submit" class="btn btn-primary w-100">Send Message</button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 text-center">
+                    <p>&copy; 2024 Your Name. All rights reserved.</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script>
+        // Smooth scrolling for navigation links
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                document.querySelector(this.getAttribute('href')).scrollIntoView({
+                    behavior: 'smooth'
+                });
+            });
+        });
+
+        // Navbar background on scroll
+        window.addEventListener('scroll', function() {
+            const navbar = document.querySelector('.navbar');
+            if (window.scrollY > 50) {
+                navbar.classList.add('scrolled');
+            } else {
+                navbar.classList.remove('scrolled');
+            }
+        });
+    </script>
+</body>
+</html>
